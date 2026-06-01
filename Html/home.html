@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple home page.</p> 
+    </header>
+<hr>
+    <main>
+    <section>
+        <h2> Unordered List Of Students</h2>
+        <ul>
+            <li>Syed Ali Sultan</li>
+            <ul>
+                <li>Seat No: B23110106065</li>
+                <li>Program: BS Software Engineering</li>
+            </ul>
+            <li>Neha Rehan</li>
+            <ul>
+                <li>Seat No: B23110006131</li>
+                <li>Program: BS Computer Science</li>
+            </ul>
+            <li>Muhamamd Abdullah</li>
+            <ul>
+                <li>Seat No: B23110106029</li>
+                <li>Program: BS Software Engineering</li>
+            </ul>
+        </ul>   
+    </section>
+    <hr>
+    <section>
+        <h2>Ordered List Of Subjects</h2>
+        <ol>
+            <li>Web Development</li>
+            <li>Data Structures</li>
+            <li>Database Systems</li>
+            <li>Operating Systems</li>
+        </ol>
+    </section>
+    <hr>
+    <section>
+        <h2>Tables in HTML</h2>
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Seat No</th>
+                <th>Program</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Syed Ali Sultan</td>
+                <td>B23110106065</td>
+                <td>BS Software Engineering</td>
+            </tr>
+            <tr>
+                <td>Neha Rehan</td>
+                <td>B23110006131</td>
+                <td>BS Computer Science</td>
+            </tr>
+            <tr>
+                <td>Muhammad Abdullah</td>
+                <td>B23110106029</td>
+                <td>BS Software Engineering</td>
+            </tr>
+        </tbody>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2>Forms in HTML</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <label for="gender">Gender:</label><br><br>
+            <label for = "gender">
+                <input type="radio" id="male" name="gender" value="male"> Male
+            </label>
+            
+            <label for="female">
+            <input type="radio" id="female" name="gender" value="female"> Female
+            </label><br><br>
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="karachi">Karachi</option>
+                <option value="lahore">Lahore</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="peshawar">Peshawar</option>
+            </select><br><br>
+            <textarea id="message" name="message" rows="4" cols="50">
+            Enter your message here...
+            </textarea><br><br>
+            <label for = "Remember Me">
+                <input type="checkbox" id="remember" name="remember"> Remember Me
+            </label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <hr>
+    <section>
+        <h2>Iframe in HTML</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=YshFbU0tBDAkbQ6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <hr>
+    <section>
+        <h2>Audio and Video in HTML</h2>
+        <audio controls>
+            <source src="/mySong.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio><br><br>
+        <video width="320" height="240" controls>
+            <source src="/myVideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+</body>
+</html>
