@@ -1,0 +1,14 @@
+#box{
+    background-color: blue;
+    color: white;
+    font-family: arial;
+}
+
+.heading{
+    color: red;
+    font-family: poppins;
+}
+
+button{
+    background-color: green;
+}

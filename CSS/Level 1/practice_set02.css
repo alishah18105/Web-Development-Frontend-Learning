@@ -1,0 +1,31 @@
+* {
+        font-family: "Times New Roman", Times, serif;
+      }
+      #main {
+        text-align: center;
+        text-transform: capitalize;
+      }
+
+      #outer {
+        font-size: 25px;
+      }
+
+      #inner {
+        font-size: 10px;
+      }
+
+      * {
+        font-family: "Times New Roman", Times, serif;
+      }
+      #main {
+        text-align: center;
+        text-transform: capitalize;
+      }
+
+      #outer {
+        font-size: 25px;
+      }
+
+      #inner {
+        font-size: 10px;
+      }
