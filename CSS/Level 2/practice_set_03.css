@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.navBar{
+    background-color: #0f1111;
+    height: 60px;
+    
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+    padding-left: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+button{
+    background-color: #f08804;
+    color: white;
+    border: none;
+    padding: 3px;
+
+}
