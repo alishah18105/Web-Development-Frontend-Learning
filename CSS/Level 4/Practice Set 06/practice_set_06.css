@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+#outer{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    
+}
