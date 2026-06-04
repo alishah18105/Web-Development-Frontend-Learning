@@ -1,0 +1,10 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-image: url("/assets/images/moon.jpg");
+    background-size: cover;
+    color: white;
+    position: fixed;
+    bottom:0;
+    right:0;
+}
