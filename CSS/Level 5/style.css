@@ -1,0 +1,58 @@
+
+/* body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s; */
+    /* transition: all 2s ease-in-out 0.5s; */
+    /* transform: scale(1.5, 1.5); */
+    /* animation-name: blink;
+    animation-duration: 0.3s; */
+    /* animation-timing-function: ease-in-out;
+    animation-delay: 0; */
+    /* animation-iteration-count: infinite; */
+    position: relative;
+    top: 100px;
+    left: 100px;
+    animation: blink 2s ease-in 1s infinite normal;
+
+} 
+
+@keyframes blink {
+    0% {
+        left: 0px;
+        background-color: blue;
+    }
+    50% {
+        left: 50px;
+        background-color: red;
+    }
+    100% {
+        left: 100px;
+        background-color: pink;
+    }
+}
+
+div:hover {
+    color: white;
+    /* transform: rotate(360deg);
+    transform: translateX(100px);
+    transform: skew(20deg, 20deg); */
+}
+
+div:active {
+    background-color: green;
+}

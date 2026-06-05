@@ -1,0 +1,25 @@
+body{
+    background-color: #36393B;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px solid #C6AC8F;
+    border-top: 20px solid #F1FFFA;
+    animation: spin 2s ease-in infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
