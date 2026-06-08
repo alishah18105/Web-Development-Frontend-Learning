@@ -1,16 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="navBar">
+      <div class="navBar">
+        <div class="nav-logo border">
+          <div class="logo"></div>
         </div>
+
+        <div class="deliver border">
+          <p class="address">Deliver to</p>
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="country">Pakistan</p>
+          </div>
+        </div>
+
+        <div class="search">
+            <select  class = "search-select" name="categories" id="categories">
+                <option value="all">All</option>
+                <option value="books">Books</option>
+                <option value="electronics">Electronics</option>
+                <option value="clothing">Clothing</option>
+                </select>
+            <input type="text" placeholder="Search Amazon" /> 
+            <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <div class="sign-in border">
+            <p class = " sign-in-first"><span>Hello, sign in</span></p>
+            <p class = "sign-in-second">Account & Lists</p>
+
+        </div>
+
+        <div class = "returns-orders border">
+            <p class="sign-in-first">Returns</p>
+            <p class = "sign-in-second">& Orders</p>
+        </div>
+
+        <div class = "cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-menu border">
+            <i class="fa-solid fa-bars"></i>All</div>
+        <div class = "panel-opt">
+            <a class = border href = "#">Today's Deal</a>
+            <a  class = border href = "#">Gift Cards</a>
+            <a  class = border  href = "#">Sell</a>
+            <a  class = border href = "#">Registry</a>
+            <a  class = border href = "#">Prime Video</a>
+            <a  class = border href = "#">Customer Service</a>
+
+
+
+        </div>
+      </div>
     </header>
-</body>
+  </body>
 </html>
