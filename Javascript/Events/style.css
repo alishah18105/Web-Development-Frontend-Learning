@@ -1,0 +1,23 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.light{
+    background-color: #FFFFFF;
+    color: #1F2937;
+}
+
+.dark{
+background-color: #121212;
+color: #FFFFFF;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    border: 2px solid black;
+}
